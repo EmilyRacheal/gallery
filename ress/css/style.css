@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.my-pad{
+    padding-top: 90px;
+    padding-bottom: 50px;
+    
+}
+
+.image-1 .m-text {
+    visibility:hidden;
+
+}
+
+.image-1:hover .m-text {
+    visibility:visible;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    color: #fff;
+    height: 100%;
+    transition: 1s;
+}
+.image-1:hover .m-text > div {
+    position: absolute;
+    bottom: 5px;
+    left: 35%;
+}
+    
+.search-icon{
+    background-color: rgb(68, 66, 66);
+    color: white;
+    padding: 15px;
+
+}
